@@ -1,0 +1,27 @@
+{
+  "name": "stringjs-testtest",
+  "version": "0.0.0",
+  "description": "Trying to replicate a bug in mocha/string.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "export NODE_ENV=test; ./node_modules/grunt-cafe-mocha/node_modules/mocha/bin/mocha --ui bdd --require should --reporter spec index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tleen/stringjs-testtest.git"
+  },
+  "author": "Tom Leen",
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/tleen/stringjs-testtest/issues"
+  },
+  "dependencies" : {
+    "string" : "3.1.1"
+  },
+  "devDependencies" : {
+    "grunt" : "0.4.5",
+    "grunt-cafe-mocha" : "0.1.13",
+    "supertest" : "0.15.0",
+    "should" : "6.0.1"
+  }
+}
