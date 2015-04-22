@@ -4,7 +4,7 @@
   "description": "Trying to replicate a bug in mocha/string.js",
   "main": "index.js",
   "scripts": {
-    "test": "export NODE_ENV=test; ./node_modules/grunt-cafe-mocha/node_modules/mocha/bin/mocha --ui bdd --require should --reporter spec index.js"
+    "test": "export NODE_ENV=test; ./node_modules/grunt-cafe-mocha/node_modules/mocha/bin/mocha --ui bdd --require should --reporter spec test/index.js"
   },
   "repository": {
     "type": "git",

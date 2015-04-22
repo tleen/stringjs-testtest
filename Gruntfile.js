@@ -10,7 +10,7 @@ module.exports = function(grunt){
         require : ['should'],
         ui : 'bdd'
       },
-      files : ['index.js']
+      files : ['test/index.js']
     }
   }
 );
